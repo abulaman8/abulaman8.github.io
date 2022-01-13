@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  
+</head>
+<body>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+<center>
+
+<div class="text" style="background: transparent;">
+  <h1>whoami -v</h1>
+  <div style="margin-left: 30px;">
+    <h2>Abulaman S</h2>
+    <small>5.413u14m4n</small>
+  </div>
+
+</div>
+<div class="intro">
+  <p  id="typedtext">
+</div>
+
+  <a class="social" aria-label="Github" href="https://github.com/abulaman8/" rel="noopener noreferrer"><img alt="Github" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5naXRodWI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZ2l0aHViIiBmaWxsPSIjNzc3Nzc3Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTEyLDAuMjk3IEM1LjM3LDAuMjk3IDAsNS42NyAwLDEyLjI5NyBDMCwxNy42IDMuNDM4LDIyLjA5NyA4LjIwNSwyMy42ODIgQzguODA1LDIzLjc5NSA5LjAyNSwyMy40MjQgOS4wMjUsMjMuMTA1IEM5LjAyNSwyMi44MiA5LjAxNSwyMi4wNjUgOS4wMSwyMS4wNjUgQzUuNjcyLDIxLjc4OSA0Ljk2OCwxOS40NTUgNC45NjgsMTkuNDU1IEM0LjQyMiwxOC4wNyAzLjYzMywxNy43IDMuNjMzLDE3LjcgQzIuNTQ2LDE2Ljk1NiAzLjcxNywxNi45NzEgMy43MTcsMTYuOTcxIEM0LjkyMiwxNy4wNTUgNS41NTUsMTguMjA3IDUuNTU1LDE4LjIwNyBDNi42MjUsMjAuMDQyIDguMzY0LDE5LjUxMiA5LjA1LDE5LjIwNSBDOS4xNTgsMTguNDI5IDkuNDY3LDE3LjkgOS44MSwxNy42IEM3LjE0NSwxNy4zIDQuMzQ0LDE2LjI2OCA0LjM0NCwxMS42NyBDNC4zNDQsMTAuMzYgNC44MDksOS4yOSA1LjU3OSw4LjQ1IEM1LjQ0NCw4LjE0NyA1LjAzOSw2LjkyNyA1LjY4NCw1LjI3NCBDNS42ODQsNS4yNzQgNi42ODksNC45NTIgOC45ODQsNi41MDQgQzkuOTQ0LDYuMjM3IDEwLjk2NCw2LjEwNSAxMS45ODQsNi4wOTkgQzEzLjAwNCw2LjEwNSAxNC4wMjQsNi4yMzcgMTQuOTg0LDYuNTA0IEMxNy4yNjQsNC45NTIgMTguMjY5LDUuMjc0IDE4LjI2OSw1LjI3NCBDMTguOTE0LDYuOTI3IDE4LjUwOSw4LjE0NyAxOC4zODksOC40NSBDMTkuMTU0LDkuMjkgMTkuNjE5LDEwLjM2IDE5LjYxOSwxMS42NyBDMTkuNjE5LDE2LjI4IDE2LjgxNCwxNy4yOTUgMTQuMTQ0LDE3LjU5IEMxNC41NjQsMTcuOTUgMTQuOTU0LDE4LjY4NiAxNC45NTQsMTkuODEgQzE0Ljk1NCwyMS40MTYgMTQuOTM5LDIyLjcwNiAxNC45MzksMjMuMDk2IEMxNC45MzksMjMuNDExIDE1LjE0OSwyMy43ODYgMTUuNzY0LDIzLjY2NiBDMjAuNTY1LDIyLjA5MiAyNCwxNy41OTIgMjQsMTIuMjk3IEMyNCw1LjY3IDE4LjYyNywwLjI5NyAxMiwwLjI5NyIgaWQ9IlBhdGgiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="></a>
+  <a class="social" aria-label="LinkedIn" href="http://uk.linkedin.com/in/abul-aman-67481a222" rel="noopener noreferrer"><img alt="LinkedIn" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5saW5rZWRpbjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJsaW5rZWRpbiIgZmlsbD0iIzc3Nzc3NyIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTIwLjQ0NywyMC40NTIgTDE2Ljg5MywyMC40NTIgTDE2Ljg5MywxNC44ODMgQzE2Ljg5MywxMy41NTUgMTYuODY2LDExLjg0NiAxNS4wNDEsMTEuODQ2IEMxMy4xODgsMTEuODQ2IDEyLjkwNSwxMy4yOTEgMTIuOTA1LDE0Ljc4NSBMMTIuOTA1LDIwLjQ1MiBMOS4zNTEsMjAuNDUyIEw5LjM1MSw5IEwxMi43NjUsOSBMMTIuNzY1LDEwLjU2MSBMMTIuODExLDEwLjU2MSBDMTMuMjg4LDkuNjYxIDE0LjQ0OCw4LjcxMSAxNi4xODEsOC43MTEgQzE5Ljc4Miw4LjcxMSAyMC40NDgsMTEuMDgxIDIwLjQ0OCwxNC4xNjYgTDIwLjQ0OCwyMC40NTIgTDIwLjQ0NywyMC40NTIgWiBNNS4zMzcsNy40MzMgQzQuMTkzLDcuNDMzIDMuMjc0LDYuNTA3IDMuMjc0LDUuMzY4IEMzLjI3NCw0LjIzIDQuMTk0LDMuMzA1IDUuMzM3LDMuMzA1IEM2LjQ3NywzLjMwNSA3LjQwMSw0LjIzIDcuNDAxLDUuMzY4IEM3LjQwMSw2LjUwNyA2LjQ3Niw3LjQzMyA1LjMzNyw3LjQzMyBaIE03LjExOSwyMC40NTIgTDMuNTU1LDIwLjQ1MiBMMy41NTUsOSBMNy4xMTksOSBMNy4xMTksMjAuNDUyIFogTTIyLjIyNSwwIEwxLjc3MSwwIEMwLjc5MiwwIDguODgxNzg0MmUtMTYsMC43NzQgOC44ODE3ODQyZS0xNiwxLjcyOSBMOC44ODE3ODQyZS0xNiwyMi4yNzEgQzguODgxNzg0MmUtMTYsMjMuMjI3IDAuNzkyLDI0IDEuNzcxLDI0IEwyMi4yMjIsMjQgQzIzLjIsMjQgMjQsMjMuMjI3IDI0LDIyLjI3MSBMMjQsMS43MjkgQzI0LDAuNzc0IDIzLjIsLTguODgxNzg0MmUtMTYgMjIuMjIyLC04Ljg4MTc4NDJlLTE2IEwyMi4yMjUsMCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="></a>
+  <a class="social" aria-label="Twitter" href="https://twitter.com/Ozymandias008" rel="noopener noreferrer"><img alt="Twitter" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT50d2l0dGVyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InR3aXR0ZXIiIGZpbGw9IiM3Nzc3NzciPgogICAgICAgICAgICA8cGF0aCBkPSJNMjMuOTU0LDIuNTY5IEMyMy4wNjksMi45NTggMjIuMTI0LDMuMjIzIDIxLjEyOSwzLjM0NCBDMjIuMTQzLDIuNzMzIDIyLjkyMywxLjc3IDIzLjI5MiwwLjYyMSBDMjIuMzQxLDEuMTc2IDIxLjI4NywxLjU4IDIwLjE2NSwxLjgwNSBDMTkuMjY5LDAuODQ2IDE3Ljk5MiwwLjI0NiAxNi41NzQsMC4yNDYgQzEzLjg1NywwLjI0NiAxMS42NTQsMi40NDkgMTEuNjU0LDUuMTYzIEMxMS42NTQsNS41NTMgMTEuNjk5LDUuOTI4IDExLjc4MSw2LjI4NyBDNy42OTEsNi4wOTQgNC4wNjYsNC4xMyAxLjY0LDEuMTYxIEMxLjIxMywxLjg4MyAwLjk3NCwyLjcyMiAwLjk3NCwzLjYzNiBDMC45NzQsNS4zNDYgMS44NDQsNi44NDkgMy4xNjIsNy43MzIgQzIuMzU1LDcuNzA2IDEuNTk2LDcuNDg0IDAuOTM0LDcuMTE2IEwwLjkzNCw3LjE3NyBDMC45MzQsOS41NjIgMi42MjcsMTEuNTUxIDQuODgsMTIuMDA0IEM0LjQ2NywxMi4xMTUgNC4wMzEsMTIuMTc1IDMuNTg0LDEyLjE3NSBDMy4yNywxMi4xNzUgMi45NjksMTIuMTQ1IDIuNjY4LDEyLjA4OSBDMy4yOTksMTQuMDQyIDUuMTEzLDE1LjQ2NiA3LjI3MiwxNS41MDYgQzUuNTkyLDE2LjgyNSAzLjQ2MywxNy42MTEgMS4xNywxNy42MTEgQzAuNzgsMTcuNjExIDAuMzkxLDE3LjU4OCAxLjc3NjM1Njg0ZS0xNSwxNy41NDQgQzIuMTg5LDE4LjkzOCA0Ljc2OCwxOS43NTMgNy41NTcsMTkuNzUzIEMxNi42MTEsMTkuNzUzIDIxLjU1NiwxMi4yNTcgMjEuNTU2LDUuNzY3IEMyMS41NTYsNS41NTggMjEuNTU2LDUuMzQ3IDIxLjU0MSw1LjEzNyBDMjIuNTAyLDQuNDQ4IDIzLjM0MSwzLjU3NyAyNC4wMDEsMi41ODkgTDIzLjk1NCwyLjU2OSBaIiBpZD0iUGF0aCI+PC9wYXRoPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"></a>
+
+<div style="position: relative; max-width: 800px;">
+  <a class="button" href="works.html" style="color: white; display: inline; right:0%">My Works</a>
+  <a class="button" href="certs.html" style="color: white; display: inline; right: 33%; left: 33%;">My Certs</a>
+  <a class="button" href="academia.html" style="color: white; display: inline; left: 0%">Academia</a>
+</div>
+
+</center>
+
+
+
+
+
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+<script type="text/javascript">
+    var aText = new Array(
+  "Hi, I'm Abul Aman S, a student at IIT Madras pursuing B Sc", 
+  "in Data Science and Programming. I get my hands dirty",
+  "on the Keyboard all day everyday, powered by",
+  "Raw Curiosity and some Strong Coffee..."
+  );
+  var iSpeed = 40; // time delay of print out
+  var iIndex = 0; // start printing array at this posision
+  var iArrLength = aText[0].length; // the length of the text array
+  var iScrollAt = 20; // start scrolling up at this many lines
+   
+  var iTextPos = 0; // initialise text position
+  var sContents = ''; // initialise contents variable
+  var iRow; // initialise current row
+   
+  function typewriter()
+  {
+   sContents =  ' ';
+   iRow = Math.max(0, iIndex-iScrollAt);
+   var destination = document.getElementById("typedtext");
+   
+   while ( iRow < iIndex ) {
+    sContents += aText[iRow++] + '<br />';
+   }
+   destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos);
+   if ( iTextPos++ == iArrLength ) {
+    iTextPos = 0;
+    iIndex++;
+    if ( iIndex != aText.length ) {
+     iArrLength = aText[iIndex].length;
+     setTimeout("typewriter()", 40);
+    }
+   } else {
+    setTimeout("typewriter()", iSpeed);
+   }
+  }
+
+
+  typewriter();
+</script>
+
+</body>
+</html>
